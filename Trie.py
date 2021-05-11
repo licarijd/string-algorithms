@@ -3,6 +3,8 @@
 class TrieNode:
       
     def __init__(self):
+
+        # Creates an array of length 26 for each letter in the alphabet
         self.children = [None]*26
   
         # isEndOfWord is True if the node represents the end of the word
@@ -88,3 +90,9 @@ def main():
   
 if __name__ == '__main__':
     main()
+
+# Output :
+# the --- Present in trie
+# these --- Not present in trie
+# their --- Present in trie
+# thaw --- Not present in trie
